@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="icon" href="./img/clock.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="root">
+        <div class="header">
+            <div class="clock">
+                <div class="clock-img"></div>
+                <div class="clock-text">CLOCK</div>
+            </div>
+            <div class="time">
+                <div class="time-text">TIME</div>
+                <div class="time-h">
+                    <div class="time-h-v">00</div>
+                    <div class="time-h-t">hours</div>
+                </div>
+                <span class="time-g">:</span>
+                <div class="time-m">
+                    <div class="time-m-v">00</div>
+                    <div class="time-m-t">mins</div>
+                </div>
+                <span class="time-g">:</span>
+                <div class="time-s">
+                    <div class="time-s-v">00</div>
+                    <div class="time-s-t">secs</div>
+                </div>
+                <div class="time-a-p">AM</div>
+            </div>
+        </div>
+        <div class="inner1"></div>
+        <div class="inner2"></div>
+        <div class="main">
+            <div class="main-m">
+                <div class="main-m-wake main-c">
+                    <i class="fas fa-sun"></i> Set wake up time   
+                    <select name="Time" id="timestamps">
+                        <option value="8 AM - 9 AM">8 AM - 9 AM</option>
+                        <option value="9 AM - 10 AM">9 AM - 10 AM</option>
+                        <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                        <option value="11 AM - 12 AM">11 AM - 12 AM</option>
+                    </select>
+                </div>
+                <div class="main-m-bor"></div>
+                <div class="main-m-lunch main-c">
+                    <i class="fas fa-utensils"></i> Set lunch time 
+                    <select name="Time" id="timestamps">
+                        <option value="8 AM - 9 AM">8 AM - 9 AM</option>
+                        <option value="9 AM - 10 AM">9 AM - 10 AM</option>
+                        <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                        <option value="11 AM - 12 AM">11 AM - 12 AM</option>
+                    </select>
+                </div>
+                <div class="main-m-bor"></div>
+                <div class="main-m-nap main-c">
+                    <i class="fas fa-bed"></i> Set nap time 
+                    <select name="Time" id="timestamps">
+                        <option value="8 AM - 9 AM">8 AM - 9 AM</option>
+                        <option value="9 AM - 10 AM">9 AM - 10 AM</option>
+                        <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                        <option value="11 AM - 12 AM">11 AM - 12 AM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main-i">
+                <div class="main-i-t">LET'S HAVE SOME LUNCH !!</div>
+            </div>
+            <div class="main-w"></div>
+            <div class="main-w-t">GOOD MORNING !!</div>
+            <div class="main-b">Party time !</div>
+        </div>
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
