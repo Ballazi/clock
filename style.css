@@ -46,6 +46,7 @@ body{
     color: white;
     font-family: bauhaush;
     font-size: 40px;
+    text-transform: uppercase;
 }
 .time
 {
@@ -109,6 +110,7 @@ body{
     box-sizing: border-box;
     border-radius: 5px;
     margin-left: 0px;
+    text-transform: uppercase;
 }
 .time-text
 {
@@ -118,6 +120,7 @@ body{
     color: #3D087B;
     margin-left: 45px;
     margin-right: -1px;
+    text-transform: uppercase;
 }
 .inner1
 {
@@ -145,7 +148,6 @@ body{
 {
     width: 73vw;
     margin-top: 50px;
-    height: 480px;
     position: absolute;
     top: 130px;
 }
@@ -171,6 +173,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Manrope', sans-serif;
 }
 
 select
@@ -185,6 +188,7 @@ select
     font-size: 1rem;
     color: #3D087BDE;
     font-weight: 600;
+    cursor: pointer;
 }
 .main-m-bor
 {
@@ -199,7 +203,7 @@ select
 {
     width: 536px;
     height: 474px;
-    background-image: url(./img/home.png);
+    /* background-image: url(./img/home.png); */
     background-position: bottom;
     background-size: 100% 100%;
     background-color: #FFFFFF;
@@ -215,6 +219,7 @@ select
     font-size: 30px;
     color: #8E53F0;
     padding: 30px;
+    text-transform: uppercase;
 }
 .main-w
 {
@@ -238,6 +243,7 @@ select
     font-family: bauhaush;
     font-weight: bolder;
     font-size: 27px;
+    text-transform: uppercase;
 }
 
 .main-b
@@ -253,6 +259,7 @@ select
     top: 424px;
     left: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 .main-b:hover
 {
@@ -318,6 +325,7 @@ select
         font-family: bauhaush;
         font-size: 15vw;
         margin-left: 1vw;
+        text-transform: uppercase;
     }
     .time
     {
@@ -379,8 +387,8 @@ select
         text-align: center;
         /* padding-top: 4vw; */
         box-sizing: border-box;
-        border-radius: 2vw
-        ;
+        border-radius: 2vw;
+        text-transform: uppercase;
         margin-left: 0px;
     }
     .time-text
@@ -390,6 +398,7 @@ select
         font-size: 6vw;
         color: #3D087B;
         margin-left: 1vw;
+        text-transform: uppercase;
         /* margin-right: -1px; */
     }
     .inner1
@@ -417,7 +426,6 @@ select
     .main
     {
         width: 90vw;
-        height: 940px;
         position: absolute;
         top: 70vw;
     }
@@ -436,13 +444,14 @@ select
     }
 
     .main-c{
-        font-size: 4.5vw;
+        font-size: 4vw;
         color: #3D087B;
         padding-bottom: 0.5rem;
         font-weight: 500;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-family: 'Manrope', sans-serif;
     }
 
     select
@@ -454,9 +463,10 @@ select
         opacity: 1;
         text-align: center;
         font-family: 'Barlow', sans-serif;
-        font-size: 4.5vw;
+        font-size: 4vw;
         color: #3D087BDE;
         font-weight: 600;
+        cursor: pointer;
     }
     .main-m-bor
     {
@@ -471,7 +481,7 @@ select
     {
         width: 86vw;
         height: 90vw;
-        background-image: url(./img/home.png);
+        /* background-image: url(./img/home.png); */
         background-position: bottom;
         background-size: 100% 100%;
         background-color: #FFFFFF;
@@ -488,6 +498,7 @@ select
         font-size: 5.5vw;
         color: #8E53F0;
         padding: 30px;
+        text-transform: uppercase;
     }
     .main-w
     {
@@ -511,6 +522,7 @@ select
         font-family: bauhaush;
         font-weight: bolder;
         font-size: 7.5vw;
+        text-transform: uppercase;
     }
 
     .main-b
@@ -528,10 +540,11 @@ select
         box-sizing: border-box;
         padding: 1vw;
         margin: 2vw 10vw;
+        cursor: pointer;
     }
     .main-b:hover
     {
-        width: 80vw;
+        width: 70vw;
         height: 13vw;
         background-image: linear-gradient(320deg,#8E53F0 25%,#FC5EFF 60%);
     }
