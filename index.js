@@ -57,20 +57,28 @@ function imageTextChange()
 
 
 
-    if(val1 <= c && c < val2)
+    if(val1 === c)
     {
+        text.style.display = "block";
         text.textContent = "wake up !!";
         img.style.backgroundImage = "url(./img/wake.png)";
     }
-    else if(val2 <= c && c < val3)
+    else if(val2 === c)
     {
+        text.style.display = "block";
         text.textContent = "LET'S HAVE SOME LUNCH !!";
         img.style.backgroundImage = "url(./img/home.png)";
     }
+    else if(val3 === c)
+    {
+        text.style.display = "block";
+        text.textContent = "GOOD NIGHT !!";
+        img.style.backgroundImage = "url(./img/sleep.png)";
+    }
     else
     {
-        text.textContent = "good night !!";
-        img.style.backgroundImage = "url(./img/sleep.png)";
+        text.style.display = "none";
+        img.style.backgroundImage = "url(./img/chilling.jpg)";
     }
 
 

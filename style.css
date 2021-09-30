@@ -528,7 +528,7 @@ select
     .main-b
     {
         font-family: 'Manrope', sans-serif;
-        font-size: 8vw;
+        font-size: 5vw;
         color: #FFFFFF;
         text-align: center;
         width: 70vw;
@@ -544,6 +544,7 @@ select
     }
     .main-b:hover
     {
+        font-size: 5vw;
         width: 70vw;
         height: 13vw;
         background-image: linear-gradient(320deg,#8E53F0 25%,#FC5EFF 60%);
